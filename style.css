@@ -77,8 +77,8 @@ body {
   font-size: 11px;
   border-radius: 0 8px 0 8px;
   font-weight: 500;
-  display: none; /* Keep it hidden by default */
-  z-index: 1; /* Ensure it appears above other elements */
+  display: none;
+  z-index: 1; 
 }
 
 .option-container {
@@ -103,12 +103,10 @@ body {
 }
 
 .option-container.selected {
-  /* background-color: #db4162;
-  border-color: #db4162; */
   background-color: #FFF9FA;
   border-color: rgba(255, 107, 130, 1);
   border-radius: 2px;
-  color: #000000 !important; /* Text color for selected state */
+  color: #000000 !important; 
 }
 
 .box {
@@ -208,7 +206,6 @@ input[type="radio"] {
 }
 
 .inner-content {
-  /* padding: 10px 16px 16px 70px; */
   margin-left: 40px;
 }
 
